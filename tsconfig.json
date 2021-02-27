@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "sourceMap": true,
+      "noImplicitAny": true,
+      "module": "esnext",
+      "target": "es6",
+      "jsx": "preserve",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "strict": false,
+      "forceConsistentCasingInFileNames": true,
+      "noEmit": true,
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "moduleResolution": "node"
+    },
+    "include": ["src/**/*"],//ここがtsの読み込み先フォルダ srcフォルダ以下を全て読み込むの意味
+    "exclude": ["node_modules"]
+  }
