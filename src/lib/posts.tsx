@@ -26,7 +26,7 @@ export function getSortedPostsData(){
     });
 
 
-    return allPostsData.sort((a,b):number => {
+    return allPostsData.sort((a:any,b:any):number => {
 
         if(a.date < b.date){
             return 1;

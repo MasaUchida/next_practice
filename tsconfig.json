@@ -17,7 +17,7 @@
       "moduleResolution": "node",
       "baseUrl": "./",
       "paths": {
-        "@/*": ["src/*"]
+        "@/*": ["src/*"],
       }
     },
     "include": [//ここがtsの読み込み先フォルダ srcフォルダ以下を全て読み込むの意味

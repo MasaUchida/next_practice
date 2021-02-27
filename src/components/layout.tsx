@@ -7,7 +7,7 @@ const name: string = 'Masatoshi Uchida'
 export const siteTitle: string = 'Next.js Sample Website'
 
 type Props = {
-    children?: React.ReactNode;
+    children?: any;
     home?: any;
 }
 
